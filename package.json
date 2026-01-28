@@ -1,0 +1,37 @@
+{
+  "name": "serverless-monorepo-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverless.ts",
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "format": "turbo run format",
+    "format:fix": "turbo run format:fix",
+    "format:check": "turbo run format:check",
+    "prepare": "husky"
+  },
+  "packageManager": "pnpm@10.24.0",
+  "private": true,
+  "workspaces": [
+    "stacks/*",
+    "packages/*"
+  ],
+  "keywords": [
+    "serverless",
+    "monorepo",
+    "template"
+  ],
+  "author": "thedashpuntsag",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.7.3",
+    "turbo": "^2.6.1",
+    "typescript": "5.6.3"
+  }
+}
