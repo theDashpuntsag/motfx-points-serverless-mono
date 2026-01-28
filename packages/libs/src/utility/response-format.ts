@@ -1,4 +1,4 @@
-import type { LbdFuncResponse as FuncRes } from '@custom-repo/schemas';
+import type { LbdFuncResponse as FuncRes } from '@motforex-points/schemas';
 import type { APIGatewayProxyResultV2 as ApiFuncRes } from 'aws-lambda';
 
 /**

@@ -1,4 +1,4 @@
-import { createDefaultApiFunction } from '@custom-repo/libs';
+import { createDefaultApiFunction } from '@motforex-points/libs';
 
 export const APIS_EXAMPLE = {
   getExampleTableDesc: createDefaultApiFunction({

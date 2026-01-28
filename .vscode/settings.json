@@ -54,7 +54,6 @@
   // TypeScript Settings
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
-  "typescript.suggest.includeCompletionsForModuleExports": true,
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.workspaceSymbols.scope": "allOpenProjects",
   "typescript.inlayHints.parameterNames.enabled": "literals",

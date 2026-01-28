@@ -1,7 +1,7 @@
 import type { ExampleItem } from '@/types';
 import { exampleItemSch } from '@/types';
 import { DescribeTableCommandOutput } from '@aws-sdk/client-dynamodb';
-import { omit } from '@custom-repo/libs';
+import { omit } from '@motforex-points/libs';
 import { DynamoQueryRequest } from 'dynamo-command-builder';
 import {
   createRecordOnDynamo,

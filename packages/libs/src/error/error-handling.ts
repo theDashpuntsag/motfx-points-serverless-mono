@@ -1,6 +1,6 @@
 import type { APIGatewayProxyResultV2 } from 'aws-lambda';
 
-import { LbdFuncResponse } from '@custom-repo/schemas';
+import { LbdFuncResponse } from '@motforex-points/schemas';
 import { ZodError } from 'zod';
 import { formatApiResponse, formatResponse, logger } from '../utility';
 import CustomError from './custom-error';

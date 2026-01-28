@@ -1,5 +1,5 @@
 {
-  "name": "@custom-repo/libs",
+  "name": "@motforex-points/libs",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.159",
-    "@custom-repo/schemas": "workspace:*",
-    "@custom-repo/ts-configs": "workspace:*",
+    "@motforex-points/schemas": "workspace:*",
+    "@motforex-points/ts-configs": "workspace:*",
     "@types/node": "^24.10.1"
   },
   "peerDependencies": {

@@ -1,5 +1,5 @@
 import { InvocationType as IType, InvokeCommand, LambdaClient } from '@aws-sdk/client-lambda';
-import { LbdFuncResponse, GenericFuncResponse as Response } from '@custom-repo/schemas';
+import { LbdFuncResponse, GenericFuncResponse as Response } from '@motforex-points/schemas';
 
 const lambdaClient = new LambdaClient({ region: 'ap-southeast-1' });
 

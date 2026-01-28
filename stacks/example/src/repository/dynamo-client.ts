@@ -9,7 +9,7 @@ import {
   QueryCommandOutput,
   UpdateCommand,
 } from '@aws-sdk/lib-dynamodb';
-import { logger } from '@custom-repo/libs';
+import { logger } from '@motforex-points/libs';
 import {
   buildGetCommandInput,
   buildPutCommandInput,

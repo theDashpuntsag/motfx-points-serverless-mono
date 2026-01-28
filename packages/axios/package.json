@@ -1,5 +1,5 @@
 {
-  "name": "@custom-repo/axios",
+  "name": "@motforex-points/axios",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
@@ -18,7 +18,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.24.0",
   "devDependencies": {
-    "@custom-repo/ts-configs": "workspace:*",
+    "@motforex-points/ts-configs": "workspace:*",
     "@types/node": "^24.10.1"
   },
   "dependencies": {

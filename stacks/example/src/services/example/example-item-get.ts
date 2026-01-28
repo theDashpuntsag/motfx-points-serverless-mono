@@ -5,7 +5,7 @@ import {
   getExampleItemTableDescription,
 } from '@/repository/example-repository';
 import { TableDescription } from '@aws-sdk/client-dynamodb';
-import { logger } from '@custom-repo/libs';
+import { logger } from '@motforex-points/libs';
 import type { DynamoQueryRequest as Query } from 'dynamo-command-builder';
 
 export async function getExampleItemTableDesc(): Promise<TableDescription> {

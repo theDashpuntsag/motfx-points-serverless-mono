@@ -27,7 +27,7 @@ importers:
         specifier: ^1.13.2
         version: 1.13.2
     devDependencies:
-      '@custom-repo/ts-configs':
+      '@motforex-points/ts-configs':
         specifier: workspace:*
         version: link:../ts-configs
       '@types/node':
@@ -43,10 +43,10 @@ importers:
         specifier: ^4.1.13
         version: 4.1.13
     devDependencies:
-      '@custom-repo/schemas':
+      '@motforex-points/schemas':
         specifier: workspace:*
         version: link:../schemas
-      '@custom-repo/ts-configs':
+      '@motforex-points/ts-configs':
         specifier: workspace:*
         version: link:../ts-configs
       '@types/node':
@@ -74,10 +74,10 @@ importers:
         specifier: ^4.1.13
         version: 4.1.13
     devDependencies:
-      '@custom-repo/schemas':
+      '@motforex-points/schemas':
         specifier: workspace:*
         version: link:../schemas
-      '@custom-repo/ts-configs':
+      '@motforex-points/ts-configs':
         specifier: workspace:*
         version: link:../ts-configs
       '@types/aws-lambda':
@@ -93,7 +93,7 @@ importers:
         specifier: ^4.1.13
         version: 4.1.13
     devDependencies:
-      '@custom-repo/ts-configs':
+      '@motforex-points/ts-configs':
         specifier: workspace:*
         version: link:../ts-configs
       '@types/node':
@@ -106,10 +106,10 @@ importers:
         specifier: ^3.940.0
         version: 3.940.0
     devDependencies:
-      '@custom-repo/schemas':
+      '@motforex-points/schemas':
         specifier: workspace:*
         version: link:../schemas
-      '@custom-repo/ts-configs':
+      '@motforex-points/ts-configs':
         specifier: workspace:*
         version: link:../ts-configs
       '@types/node':
@@ -126,7 +126,7 @@ importers:
       '@aws-sdk/lib-dynamodb':
         specifier: ^3.971.0
         version: 3.971.0(@aws-sdk/client-dynamodb@3.971.0)
-      '@custom-repo/libs':
+      '@motforex-points/libs':
         specifier: workspace:*
         version: link:../../packages/libs
       aws-lambda:
@@ -142,12 +142,12 @@ importers:
         specifier: ^4.3.5
         version: 4.3.5
     devDependencies:
-      '@custom-repo/ts-configs':
-        specifier: workspace:*
-        version: link:../../packages/ts-configs
       '@eslint/js':
         specifier: ^9.39.2
         version: 9.39.2
+      '@motforex-points/ts-configs':
+        specifier: workspace:*
+        version: link:../../packages/ts-configs
       '@serverless/typescript':
         specifier: ^4.30.0
         version: 4.30.0

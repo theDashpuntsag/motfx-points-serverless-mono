@@ -1,5 +1,5 @@
 {
-  "extends": "@custom-repo/ts-configs/base.json",
+  "extends": "@motforex-points/ts-configs/base.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

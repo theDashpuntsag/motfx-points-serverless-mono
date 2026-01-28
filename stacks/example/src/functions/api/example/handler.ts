@@ -5,7 +5,7 @@ import {
   getExampleItemTableDesc as getExampleTableDescription,
   updateExampleItem,
 } from '@/services/example';
-import { createHttpHandler, CustomError, extractMetadataFromEvent } from '@custom-repo/libs';
+import { createHttpHandler, CustomError, extractMetadataFromEvent } from '@motforex-points/libs';
 import { extractQueryReqFromParams } from 'dynamo-command-builder';
 
 /**
